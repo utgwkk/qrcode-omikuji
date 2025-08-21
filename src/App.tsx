@@ -9,7 +9,7 @@ const generateTwitterShareUrl = (unsei: string) => {
     "https://twitter.com/intent/tweet?url=https%3A%2F%2Fsugarheart.utgw.net%2Fqrcode-omikuji%2F"
   );
   url.searchParams.set('text', `${unsei}でした!!`)
-  url.searchParams.set('hashtag', 'qrcode_omikuji')
+  url.searchParams.set('hashtags', 'qrcode_omikuji')
   return url;
 };
 
