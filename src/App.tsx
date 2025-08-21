@@ -17,7 +17,7 @@ function App() {
   return (
     <>
       <QRCodeSVG value={UNSEIS[unseiIndex]} />
-      <div>
+      <div style={{marginTop: '100px'}}>
         <a
           className="twitter-share-button"
           href="https://twitter.com/intent/tweet"
